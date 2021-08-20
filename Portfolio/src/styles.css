@@ -127,7 +127,7 @@ p{
 @media only screen and (max-width:1000px){
     .project-container{
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
     }
 }
 .project-image{
@@ -148,4 +148,44 @@ hr{
 a{
     text-decoration: none;
     color:white;
+}
+.hamburger{
+   display: none;
+}
+.hamburger:focus{
+    outline: 0;
+}
+@media only screen and (max-width:1000px){
+    .hamburger{
+        border:0;
+        color:white;
+        background-color: transparent;
+        font-size: 30px;
+        display: block;
+        margin: 20px;
+        align-self: flex-end;
+        
+    }
+    ul{
+        display: none;
+        background-color:#2b2c38;
+        margin: 0px;
+    }
+    ul.show{
+        display: block;
+    }
+    
+    nav{
+        /* align-items: flex-start; */
+        display: flex;
+        flex-direction: column-reverse;
+        background-color:#2b2c38;
+    }
+    /* .logo{
+        display: none;
+    } */
+    .logo{
+        width:80px;
+        margin:30px;
+    }
 }
