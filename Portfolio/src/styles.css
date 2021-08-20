@@ -5,8 +5,6 @@ body{
 }
 section{
     background-color: white;
-    border: 1px solid black;
-    
 }
 
 .hero{
@@ -102,8 +100,8 @@ p{
     padding: 80px;
 }
 .headshot{
-    width: 200px;
-    height: 200px;
+     width: 250px;
+    height: 250px; 
     border-radius: 150px;
 }
 .headshot-container{
@@ -112,8 +110,9 @@ p{
 }
 .project-card{
     width: 200px;
-    height: 500px;
-    border: 1px solid black ;
+    height: 300px;
+    box-shadow: 5px 5px 20px rgb(182, 182, 182);
+
 }
 .project-container{
     display: flex;
