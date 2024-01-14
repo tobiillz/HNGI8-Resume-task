@@ -92,8 +92,8 @@ p{
     padding-bottom: 200px;
 }
 .logo{
-    height:80px;
-    margin:30px;
+    height:60px;
+    margin:15px;
 }
 .social{
     margin: 10px;
@@ -234,4 +234,8 @@ a{
        height: 150px; 
        border-radius: 150px;
    }
+   .logo{
+    height:40px;
+    margin:20px;
+}
 }
