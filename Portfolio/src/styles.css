@@ -131,10 +131,6 @@ p{
     display: flex;
     justify-content: space-around;
 }
-#new{
-        text-decoration: none;
-        color:red; 
-}
 @media only screen and (max-width:1000px){
     .project-container{
         display: flex;
